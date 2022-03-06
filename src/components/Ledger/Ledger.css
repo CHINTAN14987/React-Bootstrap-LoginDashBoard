@@ -1,0 +1,50 @@
+.ledgerKey {
+  color: #aeb3c7;
+}
+.ledgerContainer h3 {
+  color: rgba(54, 81, 122, 255);
+}
+.currency {
+  border-radius: 50%;
+  margin: 0.1rem;
+  background-color: #b5cafc;
+  border: transparent;
+  text-align: center;
+}
+
+.currencySign {
+  color: #4b7ffc;
+  margin: auto;
+}
+.ledgerContainer {
+  box-shadow: 8px 0 5px -2px rgba(245, 245, 245, 255);
+  text-align: center;
+}
+.ledgerContainerLast {
+  text-align: center;
+  margin-top: 1.8rem;
+}
+.buttonRow {
+  text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  .row1 {
+    text-align: center;
+  }
+  .ledgerContainerLast {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ledgerContainerLast {
+    margin-bottom: 1rem;
+  }
+  .ledgerContainer {
+    margin-bottom: 1rem;
+  }
+  .buttonRowOne {
+    text-align: center;
+  }
+}

@@ -1,0 +1,42 @@
+.teamButtonOne {
+  background-color: #e5fcf3;
+  color: #9ff4d3;
+  border-radius: 25px;
+  border: transparent;
+  padding: 5px 16px;
+}
+
+.teamButtonTwo {
+  background-color: #ecf2fe;
+  color: #99b6fd;
+  border-radius: 25px;
+  border: transparent;
+  padding: 5px 16px;
+}
+
+.progress-bar {
+  background-color: #01e38c;
+  color: white;
+  border-radius: 25px;
+  display: inline-block;
+}
+.progress {
+  border-radius: 25px;
+  height: 10px;
+}
+
+.name {
+  display: inline-block;
+}
+.Individual,
+.countryProgress {
+  box-shadow: 10px 10px 6px -3px rgba(245, 245, 245, 255),
+    -10px -10px 8px -5px rgba(245, 245, 245, 255);
+  margin-bottom: 1.4rem;
+}
+
+@media screen and (max-width: 969px) {
+  .Individual {
+    justify-content: center !important;
+  }
+}

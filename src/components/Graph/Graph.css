@@ -1,0 +1,48 @@
+.colourGreen {
+  color: #01e38c;
+}
+.colourRed {
+  color: #ff4f78;
+}
+.individualGraph {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.graphCol {
+  text-align: center;
+}
+.country {
+  margin: 5px;
+}
+.colValue {
+  display: inline-block;
+  margin-right: 1.5px;
+}
+
+.graphContainer {
+  background-color: #ffffff;
+  box-shadow: 10px 10px 6px -3px rgba(245, 245, 245, 255),
+    -10px -10px 8px -5px rgba(245, 245, 245, 255);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 85% !important;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: rgba(54, 81, 122, 255);
+}
+
+@media screen and (min-width: 768px) {
+  .graphs {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  /* .chart {
+    width: 80% !important;
+    height: 3rem !important;
+  }
+} */
+}

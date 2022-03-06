@@ -1,0 +1,18 @@
+.dashBoardIcon {
+  box-shadow: 10px 10px 6px -3px rgba(245, 245, 245, 255),
+    -10px -10px 8px -5px rgba(245, 245, 245, 255);
+}
+
+.navContainer {
+  width: 20%;
+  height: 100vh;
+  background-color: #fff;
+  box-shadow: 10px 0 6px -3px rgba(245, 245, 245, 255);
+}
+
+@media screen and (max-width: 486px) {
+  .navContainer {
+    width: 100%;
+    height: fit-content;
+  }
+}

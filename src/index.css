@@ -1,0 +1,62 @@
+body {
+  background-color: #fcfcfc;
+}
+
+label {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #464c67;
+  font-weight: 600;
+}
+.input {
+  display: block;
+
+  width: 200px;
+  padding: 5px;
+}
+
+.myForm {
+  background-color: #ffff;
+  border-radius: 20px;
+  padding: 1rem;
+  width: 30rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem auto;
+  box-shadow: 3px -5px 2px rgba(0, 0, 0, 0.25), -3px 5px 3px rgba(0, 0, 0, 0.45);
+}
+.displayedDashBoard {
+  overflow-y: scroll;
+  scrollbar-color: #01e38c #fff;
+  height: 100vh;
+  width: 80%;
+  scrollbar-width: thin;
+}
+
+.credentials {
+  text-align: center;
+  margin-top: 5rem;
+  color: #464c67;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 486px) {
+  .displayedDashBoard {
+    width: 100%;
+
+    overflow: none;
+    height: auto;
+  }
+  .DashBoardHome {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 486px) {
+  .myForm {
+    width: fit-content;
+    height: fit-content;
+  }
+}
